@@ -29,9 +29,19 @@ ESC ] 66 ; w=<cells> ; <utf8-text> BEL
 
 ## Installation
 
-Requires: Rust, libharfbuzz, libfontconfig.
+Requires: libharfbuzz, libfontconfig.
+
+### From crates.io
 
 ```sh
+cargo install osc66
+```
+
+### From source
+
+```sh
+git clone https://github.com/santhoshtr/osc66.git
+cd osc66
 cargo build --release
 # binary: target/release/osc66
 ```
