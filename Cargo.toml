@@ -2,6 +2,9 @@
 name = "osc66"
 version = "0.1.0"
 edition = "2024"
+description = "CLI that wraps text in kitty text-sizing-protocol escape codes using harfbuzz for accurate glyph shaping and width calculation"
+license = "MIT"
+repository = "https://github.com/santhoshtr/osc66"
 
 [dependencies]
 fontconfig-rs = "0.1.1"
